@@ -1,4 +1,6 @@
 .pytest_cache/
+.vscode/
 pywhiten.egg-info/
 build/
 dist/
+venv/
