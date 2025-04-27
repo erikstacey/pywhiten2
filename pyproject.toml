@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pywhiten2"
+version = "2.0.0"
+authors = [
+  { name="Erik Stacey", email="erik@erikstacey.com" },
+]
+license = {"text" = "MIT"}
+description = "A python package for conducting Lomb-ScarSgle based prewhitening of stellar time series. "
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "astropy",
+    "scipy"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/erikstacey/pywhiten2"
+"Bug Tracker" = "https://github.com/erikstacey/pywhiten2/issues"
+"Documentation" = "https://readthedocs.org/projects/pywhiten2/"

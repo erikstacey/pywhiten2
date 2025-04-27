@@ -1,0 +1,11 @@
+site_name: pywhiten
+site_url: https://github.com/erikstacey/pywhiten
+nav:
+    - Home: index.md
+    - Getting Started: getting-started.md
+    - Configuration: configuration.md
+    - Pywhitener: pywhitener.md
+    - Data (Module): module-data.md
+    - Optimization (Module): module-optimization.md
+    - pwio (Module): module-pwio.md
+theme: readthedocs
